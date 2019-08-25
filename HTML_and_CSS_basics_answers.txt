@@ -1,0 +1,80 @@
+** Why do we separate HTML and CSS?
+
+    Although HTML and CSS do not need to be seperate it is best practice to do so because it is more efficient.
+    Different HTML pages can use the same CSS stylesheet, resulting in faster load times for the user. 
+    It is also a benefit when there are different people working on different parts of the project -- for example, if one designer works with HTML and the other works with CSS.
+
+** What are classes and IDs (and how are they different)?
+
+    Classes and IDs are unique selectors chosen by a designer to group elements of a webpage together.
+    A class is a unique selector that can be applied to multiple elements.
+    An ID is a unique selector that is only applied to one element.
+
+** What are elements?
+
+    HTML has components called "elements" that structure a website and define its contents.
+
+** What are tags?
+
+    Tags in HTML are keywords that specify how a browser should present information to the user.
+    They are formatted as follows: <tag></tag> (though sometimes all you need to specify a tag is an opening <tag>)
+
+** What are attributes?
+
+    Attributes are keywords added to the first tag of an element used to manipulate that tag in different ways.
+    Attributes have two parts: their name, and their value.
+
+** What are forms?
+
+    Forms are an HTML element that take input from a user.
+
+** What is a div?
+
+    A "div" is an HTML element whose name is short for "division", and as the name implies it divides the website HTML into sections that are useful for grouping elements together.
+
+** What are selectors?
+
+    Selectors are the names given to styles in CSS.
+
+** What are properties?
+
+    Properties are the styles within a given selector.
+
+** What are values?
+
+    Values are elements passed to a property after a semicolon.
+
+** What is the “query string” in a URL and what does it do?
+
+    A query string is part of a URL. 
+    It carries values from specified paramenters on an HTML page.
+
+** What is the difference between “pixels” and “ems”?
+
+    A pixel is one dot on the computer screen or device screen.
+    An ems is a scalable unit used in reference to font size.
+    A pixel is an exact measurement of size, while an ems is a scalable measurement.
+
+** How do CSS styles for a particular element get inherited? i.e. how does an element get its “default” styles?
+
+    An element gets its default styles in a user's browser settings. If no style is specified by the website files, these styles are used.
+    Styles outside of the default are inherited through CSS in order of their importance, specificity, and source order.
+
+** What are two CSS attributes you can change to push an element around on the page?
+
+    An element on a page is pushed around via its "padding" and "margin" attributes.
+
+** What are the three different ways to include CSS in your project or use CSS to style a particular element?
+
+    In-line CSS, which specifies style inside an element tag.
+    Header CSS, which specifies styles at the top of an HTML document.
+    Seperate sheet CSS, which specifies style in a separate file that the HTML document calls.
+
+** What is the “default stylesheet” or “user agent stylesheet”?
+
+    A default stylesheet is specified in browser settings and is applied when style elements are missing on a web page or are incompatible with the browser.
+
+** Why use a CSS reset file?
+
+    A CSS reset file is used to override a browser's unique style preferences and set them to null.
+    This can in turn make a user's experience on a website the same regardless of which browser they use.
